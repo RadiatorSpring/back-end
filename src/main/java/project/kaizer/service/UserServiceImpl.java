@@ -1,16 +1,17 @@
-package org.alex.kaizer.service;
+package project.kaizer.service;
+
 
 import org.modelmapper.ModelMapper;
-import org.alex.kaizer.domain.entities.User;
-import org.alex.kaizer.domain.entities.UserRole;
-import org.alex.kaizer.domain.models.service.UserServiceModel;
-import org.alex.kaizer.repository.RoleRepository;
-import org.alex.kaizer.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
+import project.kaizer.domain.entities.User;
+import project.kaizer.domain.entities.UserRole;
+import project.kaizer.domain.models.service.UserServiceModel;
+import project.kaizer.repository.RoleRepository;
+import project.kaizer.repository.UserRepository;
 
 import java.util.HashSet;
 import java.util.Set;

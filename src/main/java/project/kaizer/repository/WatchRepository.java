@@ -1,6 +1,6 @@
-package org.alex.kaizer.repository;
+package project.kaizer.repository;
 
-import org.alex.kaizer.domain.entities.Watch;
+import project.kaizer.domain.entities.Watch;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

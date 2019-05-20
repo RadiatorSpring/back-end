@@ -1,4 +1,4 @@
-package org.alex.kaizer.web.filters;
+package project.kaizer.web.filters;
 
 import io.jsonwebtoken.Jwts;
 import org.springframework.security.authentication.AuthenticationManager;

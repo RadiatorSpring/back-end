@@ -1,8 +1,6 @@
-package org.alex.kaizer.config;
+package project.kaizer.config;
 
-import org.alex.kaizer.service.UserService;
-import org.alex.kaizer.web.filters.JwtAuthenticationFilter;
-import org.alex.kaizer.web.filters.JwtAuthorizationFilter;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
@@ -14,6 +12,9 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
+import project.kaizer.service.UserService;
+import project.kaizer.web.filters.JwtAuthenticationFilter;
+import project.kaizer.web.filters.JwtAuthorizationFilter;
 
 @EnableWebSecurity
 public class ApplicationSecurityConfiguration extends WebSecurityConfigurerAdapter {

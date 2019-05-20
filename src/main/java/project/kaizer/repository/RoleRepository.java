@@ -1,8 +1,8 @@
-package org.alex.kaizer.repository;
+package project.kaizer.repository;
 
-import org.alex.kaizer.domain.entities.UserRole;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import project.kaizer.domain.entities.UserRole;
 
 @Repository
 public interface RoleRepository extends JpaRepository<UserRole, String> {

@@ -1,7 +1,7 @@
-package org.alex.kaizer.service;
+package project.kaizer.service;
 
-import org.alex.kaizer.domain.models.service.UserServiceModel;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import project.kaizer.domain.models.service.UserServiceModel;
 
 import java.util.Set;
 

@@ -1,15 +1,15 @@
-package org.alex.kaizer.web.filters;
+package project.kaizer.web.filters;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import org.alex.kaizer.domain.entities.User;
-import org.alex.kaizer.domain.models.binding.UserLoginBindingModel;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter;
+import project.kaizer.domain.entities.User;
+import project.kaizer.domain.models.binding.UserLoginBindingModel;
 
 import javax.servlet.FilterChain;
 import javax.servlet.ServletException;

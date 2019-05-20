@@ -1,4 +1,4 @@
-package org.alex.kaizer.domain.entities;
+package project.kaizer.domain.entities;
 
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.security.core.GrantedAuthority;

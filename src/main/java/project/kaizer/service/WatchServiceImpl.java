@@ -1,11 +1,11 @@
-package org.alex.kaizer.service;
+package project.kaizer.service;
 
-import org.modelmapper.ModelMapper;
-import org.alex.kaizer.domain.entities.Watch;
 import org.alex.kaizer.domain.models.service.WatchServiceModel;
-import org.alex.kaizer.repository.WatchRepository;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import project.kaizer.domain.entities.Watch;
+import project.kaizer.repository.WatchRepository;
 
 import java.util.LinkedHashSet;
 import java.util.Set;

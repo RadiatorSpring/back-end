@@ -1,4 +1,4 @@
-package org.alex.kaizer.service;
+package project.kaizer.service;
 
 import org.alex.kaizer.domain.models.service.WatchServiceModel;
 

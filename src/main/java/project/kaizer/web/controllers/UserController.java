@@ -1,12 +1,15 @@
-package org.alex.kaizer.web.controllers;
+package project.kaizer.web.controllers;
 
 import org.modelmapper.ModelMapper;
-import org.alex.kaizer.domain.models.binding.UserRegisterBindingModel;
-import org.alex.kaizer.domain.models.service.UserServiceModel;
-import org.alex.kaizer.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import project.kaizer.domain.models.binding.UserRegisterBindingModel;
+import project.kaizer.domain.models.service.UserServiceModel;
+import project.kaizer.service.UserService;
 
 import java.net.URI;
 import java.net.URISyntaxException;

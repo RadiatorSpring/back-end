@@ -1,6 +1,7 @@
-package org.alex.kaizer.domain.models.service;
+package project.kaizer.domain.models.service;
 
-import org.alex.kaizer.domain.entities.UserRole;
+
+import project.kaizer.domain.entities.UserRole;
 
 public class UserServiceModel {
 

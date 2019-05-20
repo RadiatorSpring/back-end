@@ -1,4 +1,5 @@
-package org.alex.kaizer.domain.entities;
+package project.kaizer.domain.entities;
+
 
 import org.hibernate.annotations.GenericGenerator;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -24,7 +25,7 @@ public class User implements UserDetails {
 
     private boolean isEnabled;
 
-    private Set<UserRole> authorities;
+    private Set<project.kaizer.domain.entities.UserRole> authorities;
 
     public User() {
     }

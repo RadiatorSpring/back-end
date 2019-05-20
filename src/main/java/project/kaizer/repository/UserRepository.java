@@ -1,8 +1,9 @@
-package org.alex.kaizer.repository;
+package project.kaizer.repository;
 
-import org.alex.kaizer.domain.entities.User;
+
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
+import project.kaizer.domain.entities.User;
 
 import java.util.Optional;
 

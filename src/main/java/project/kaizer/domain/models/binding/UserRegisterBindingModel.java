@@ -1,4 +1,4 @@
-package org.alex.kaizer.domain.models.binding;
+package project.kaizer.domain.models.binding;
 
 public class UserRegisterBindingModel {
     private String username;

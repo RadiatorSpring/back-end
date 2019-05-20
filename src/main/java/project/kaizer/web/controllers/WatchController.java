@@ -1,15 +1,15 @@
-package org.alex.kaizer.web.controllers;
+package project.kaizer.web.controllers;
 
-import org.modelmapper.ModelMapper;
 import org.alex.kaizer.domain.models.binding.WatchCreateBindingModel;
 import org.alex.kaizer.domain.models.service.WatchServiceModel;
 import org.alex.kaizer.domain.models.view.AllWatchesWatchViewModel;
 import org.alex.kaizer.domain.models.view.TopWatchesWatchViewModel;
 import org.alex.kaizer.domain.models.view.WatchDetailsViewModel;
-import org.alex.kaizer.service.WatchService;
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import project.kaizer.service.WatchService;
 
 import java.net.URI;
 import java.net.URISyntaxException;
