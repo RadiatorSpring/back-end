@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890f3463-a9f6-42c8-97c4-c2a14467cc34" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/softuni/kaizer/config/ApplicationSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/softuni/kaizer/config/ApplicationSecurityConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/kaizer/config/ApplicationSecurityConfiguration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/kaizer/config/ApplicationSecurityConfiguration.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/softuni/kaizer/web/filters/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/softuni/kaizer/web/filters/JwtAuthenticationFilter.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="ApplicationSecurityConfiguration.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/kaizer/config/ApplicationSecurityConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-126">
-              <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            <state relative-caret-position="165">
+              <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -41,7 +37,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/kaizer/web/filters/JwtAuthorizationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="400">
-              <caret line="60" lean-forward="true" selection-end-line="60" />
+              <caret line="60" selection-end-line="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#765#766#0" expanded="true" />
@@ -55,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/kaizer/web/filters/JwtAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="20">
-              <caret line="33" lean-forward="true" selection-end-line="57" />
+              <caret line="33" selection-end-line="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -167,6 +163,7 @@
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/kaizer/domain/entities/Watch.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/kaizer/web/filters/JwtAuthorizationFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/kaizer/web/filters/JwtAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/org/kaizer/config/ApplicationSecurityConfiguration.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/softuni/kaizer/config/ApplicationSecurityConfiguration.java" />
       </list>
     </option>
@@ -247,158 +244,6 @@
               <item name="back-end" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="entities" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="binding" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="domain" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="softuni" type="462c0819:PsiDirectoryNode" />
-              <item name="kaizer" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="filters" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kaizer" type="b2602c69:ProjectViewProjectNode" />
-              <item name="back-end" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -458,7 +303,7 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.softuni.kaizer.*" />
+          <option name="PATTERN" value="project.kaizer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -549,12 +394,12 @@
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50065106" side_tool="true" weight="0.32831737" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.32831737" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" visible="true" weight="0.32831737" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27929688" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27929688" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -827,7 +672,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/kaizer/web/filters/JwtAuthorizationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="400">
-          <caret line="60" lean-forward="true" selection-end-line="60" />
+          <caret line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#765#766#0" expanded="true" />
@@ -839,7 +684,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/kaizer/web/filters/JwtAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20">
-          <caret line="33" lean-forward="true" selection-end-line="57" />
+          <caret line="33" selection-end-line="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -848,8 +693,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/softuni/kaizer/config/ApplicationSecurityConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-126">
-          <caret line="38" column="29" lean-forward="true" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="33" column="23" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
         </state>
       </provider>
     </entry>
